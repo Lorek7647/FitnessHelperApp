@@ -1,0 +1,71 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FitnessHelper
+build_property.ProjectDir = C:\Users\Gas\source\repos\FitnessHelper\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Gas/source/repos/FitnessHelper/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessHelper.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Gas/source/repos/FitnessHelper/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessHelper.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Gas/source/repos/FitnessHelper/Pages/DailyMeal.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessHelper.Pages.DailyMeal.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DailyMeal.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DailyMeal.xaml
+
+[C:/Users/Gas/source/repos/FitnessHelper/Pages/DailyQuote.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessHelper.Pages.DailyQuote.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DailyQuote.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DailyQuote.xaml
+
+[C:/Users/Gas/source/repos/FitnessHelper/Pages/Timer.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessHelper.Pages.Timer.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Timer.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Timer.xaml
+
+[C:/Users/Gas/source/repos/FitnessHelper/Pages/Weight.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessHelper.Pages.Weight.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Weight.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Weight.xaml
+
+[C:/Users/Gas/source/repos/FitnessHelper/Pages/YOU.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessHelper.Pages.YOU.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\YOU.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\YOU.xaml
+
+[C:/Users/Gas/source/repos/FitnessHelper/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessHelper.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Gas/source/repos/FitnessHelper/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessHelper.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

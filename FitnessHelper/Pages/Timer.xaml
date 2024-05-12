@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessHelper.Pages.Timer"
+             Title="Timer">
+    <Shell.TitleView>
+        <Grid>
+            <Label Text="" HorizontalOptions="Center" VerticalOptions="Center" 
+               FontAttributes="Bold" FontSize="35"/>
+        </Grid>
+    </Shell.TitleView>
+    <StackLayout>
+        <StackLayout Grid.Row="3" Spacing="10" Margin="0,0,0,10" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+            <Entry x:Name="BreakEntry" Placeholder="Break Time:" FontSize="35" Completed="OnEntryCompleted"/>
+        </StackLayout>
+        <StackLayout Grid.Row="3" Spacing="10" Margin="0,0,0,10" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+            <Entry x:Name="ExerciseEntry" Placeholder="Exercise Time:" FontSize="35" Completed="OnEntryCompleted"/>
+        </StackLayout>
+        <StackLayout Grid.Row="3" Spacing="10" Margin="0,0,0,30" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+            <Entry x:Name="SetsEntry" Placeholder="Total Sets:" FontSize="35" Completed="OnEntryCompleted"/>
+        </StackLayout>
+        <StackLayout Grid.Row="3" Spacing="10" Margin="0,0,0,10" Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+            <Label x:Name="TitleLabel" Text="Ready?" FontSize="35" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </StackLayout>
+        <StackLayout Grid.Row="3" Spacing="10" Margin="0,0,0,30" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+            <Label x:Name="TimerLabel" Text="00:00" FontSize="100"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <Button BackgroundColor="#3b2f2f" Text="Start" Margin="0,0,30,0" FontSize="35" Clicked="OnStartClicked"/>
+            <Button BackgroundColor="#3b2f2f" Text="Stop" Margin="30,0,0,0" FontSize="35" Clicked="OnStopClicked"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <Button BackgroundColor="#3b2f2f" Text="Reset" Margin="0,30,0,0" FontSize="35" Clicked="OnResetClicked"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessHelper.Pages.YOU"
+             Title="YOU">
+    <Shell.TitleView>
+        <Grid>
+            <Label Text="" HorizontalOptions="Center" VerticalOptions="Center" 
+                   FontAttributes="Bold" FontSize="35"/>
+        </Grid>
+    </Shell.TitleView>
+    <StackLayout Grid.Row="3" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+        <Image Source="profile_pic.png" WidthRequest="150" HeightRequest="150" Margin="0,50,0,50"/>
+        <Picker x:Name="Gender" Title="Gender:" FontSize="35" SelectedIndexChanged="OnPickerSelectedIndexChanged">
+            <Picker.Items>
+                <x:String>Male</x:String>
+                <x:String>Female</x:String>
+                <x:String>PreferNotToSay</x:String>
+            </Picker.Items>
+        </Picker>
+        <Entry x:Name="AgeEntry" Placeholder="Age:" FontSize="35" Completed="OnEntryCompleted"/>
+        <Entry x:Name="HeightEntry" Placeholder="Height:" FontSize="35" Completed="OnEntryCompleted"/>
+    </StackLayout>
+</ContentPage>

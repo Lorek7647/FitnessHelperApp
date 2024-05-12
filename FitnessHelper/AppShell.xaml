@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="FitnessHelper.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:FitnessHelper.Pages"
+    Shell.FlyoutBehavior="Disabled">
+    <TabBar>
+        <Tab Title = "Weight" Icon = "weight_icon.png">
+            <ShellContent Title = "Weight"
+        ContentTemplate="{DataTemplate local:Weight}" Route="Weight"/>
+        </Tab>
+        <Tab Title = "Timer" Icon = "timer_icon.png">
+            <ShellContent Title = "Timer"
+        ContentTemplate="{DataTemplate local:Timer}" Route="Timer"/>
+        </Tab>
+        <Tab Title = "Daily Meal" Icon = "meal_icon.png">
+            <ShellContent Title = "DailyMeal"
+        ContentTemplate="{DataTemplate local:DailyMeal}" Route="DailyMeal"/>
+        </Tab>
+        <Tab Title = "Daily Quote" Icon = "quote_icon.png">
+            <ShellContent Title = "DailyQuote"
+        ContentTemplate="{DataTemplate local:DailyQuote}" Route="DailyQuote"/>
+        </Tab>
+        <Tab Title = "YOU" Icon = "you_icon.png">
+            <ShellContent Title = "YOU"
+        ContentTemplate="{DataTemplate local:YOU}" Route="YOU"/>
+        </Tab>
+    </TabBar>
+</Shell>
